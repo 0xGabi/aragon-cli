@@ -66,9 +66,10 @@ The [React boilerplate](https://github.com/aragon/aragon-react-boilerplate) supp
 Start the Aragon GUI (graphical user interface)
 
 ```sh
-aragon start [client-version]
+aragon start [client-repo] [client-version]
 ```
 
+- `client-repo`: Repository of Aragon client to clone and run in your sandboxed app. Defaults to `https://github.com/aragon/aragon`.
 - `client-version`: Version of Aragon client used to run your sandboxed app (commit hash, branch name or tag name)
 
 Options:
